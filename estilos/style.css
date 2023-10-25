@@ -15,8 +15,8 @@ form {
     text-align: center; /* Para centralizar os elementos dentro do formulário */
     padding: 20px;
     border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f9f9f9;
+    border-radius: 8px;
+    /*background-color: #f9f9f9;*/
   }
 
 #div-remember {
@@ -30,6 +30,7 @@ p {
 
 #div-remember{
     margin-top: 5px;
+    margin-bottom: 20px;
 }
 
 #btn-signin {
@@ -45,11 +46,20 @@ p {
     cursor: pointer;
 }
 
-#div-email, div-password {
+#div-email, #div-password {
     height: auto;
     width: auto;
     text-align: left;
+    width: 200px;
+    margin: 5px;
+    
 }
 
+.campos {
+    display: flex; /*conteiner flexivel*/
+    flex-direction: column; /*alinhar em coluna*/
+    justify-content: center;
+    align-items: center;
+}   
 
 
